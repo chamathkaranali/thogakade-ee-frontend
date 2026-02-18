@@ -1,10 +1,11 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
+import { Dashboard } from "./page/dashboard/dashboard";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Dashboard],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
