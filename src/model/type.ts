@@ -10,6 +10,9 @@ export interface CustomerModel {
     postalCode: string;
 }
 
-export interface ItemModel{
-
+export interface ApiResponse<T>{
+    content:T;
+    message:string;
+    status:number;
+    timestamp:string;
 }
